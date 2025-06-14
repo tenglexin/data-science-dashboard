@@ -55,6 +55,7 @@ Make sure you have Python and pip installed.
 bash
 Copy
 Edit
+
 # Clone the repository
 git clone https://github.com/tenglexin/data-science-dashboard.git
 cd data-science-dashboard
@@ -64,6 +65,7 @@ pip install -r requirements.txt
 
 # Run the dashboard
 streamlit run dashboard.py
+
 🌐 Live Demo
 Click here to view the live app on Streamlit Cloud
 https://house-price-predictor-dashboard.streamlit.app/
@@ -97,6 +99,7 @@ Sprint log tracks user stories, backlog, and improvements
 Frequent commits showing iterative development
 
 🤝 Collaborators
+
 tenglexin
 leeseeping
 
