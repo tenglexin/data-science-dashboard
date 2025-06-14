@@ -22,7 +22,6 @@ st.title("🏠 House Prices Dashboard")
 st.markdown("Use the filters on the left to explore house sale prices, visualize trends, and predict prices with ML models.")
 
 # --- Sidebar ---
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/House-icon.png/480px-House-icon.png", width=80)
 st.sidebar.title("🔍 Filter Options")
 
 neighborhoods = st.sidebar.multiselect(
