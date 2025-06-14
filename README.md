@@ -1,23 +1,34 @@
 # 🏠 House Price Prediction Dashboard
-An interactive Streamlit dashboard for exploring and predicting house prices using the House Prices - Advanced Regression Techniques dataset.
 
-Built as part of a data science project using **Agile principles**, iterative sprints, and a Minimum Viable Dashboard (MVD) approach.
+An interactive data science dashboard built with **Streamlit**, powered by machine learning models to explore and predict house sale prices. Designed with Agile principles, this project demonstrates iterative development, clean UI/UX, and collaboration features.
 
-# 🚀 Features
-**Sidebar Filters:** Filter data by neighborhood, year built, house style, and overall condition
+---
 
-**Visualizations:**
--   Average price by neighborhood
--   Sale price distribution
--   Scatter plot: living area vs. price
+## 🔍 Overview
 
-**Predictive Model:**
--   Input home features to predict sale price using Linear Regression
--   Shows model performance: RMSE and R²
-  
-**Summary Metrics:** Displays average price, median price, and total listings after filters
+This application visualizes housing market trends using the popular **House Prices - Advanced Regression Techniques** dataset from [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques). Users can:
+
+- Filter data by neighborhood, year built, house style, and condition
+- View insightful visualizations (bar chart, histogram, scatter plot)
+- Predict house prices using Linear Regression
+- Compare model performance (Linear Regression vs Random Forest)
+- Download filtered datasets
+
+---
+
+## 📦 Features
+
+✅ Sidebar filters for dynamic exploration  
+✅ Predictive model using user inputs  
+✅ Visualizations powered by Altair  
+✅ Model comparison with performance metrics (RMSE, R²)  
+✅ Streamlit Cloud deployment ready  
+✅ Lightweight and responsive UI
+
+---
 
 # 🔧 Tech Stack
+
 - Python 🐍
 - Streamlit (dashboard)
 - Scikit-learn (machine learning)
@@ -25,24 +36,30 @@ Built as part of a data science project using **Agile principles**, iterative sp
 - Altair (visualization)
 - Git/GitHub (version control & collaboration)
 
+---
+
 # 📂 Project Structure
+
 data-science-dashboard/
 
 │
 
-├── data/               # Dataset (e.g., train.csv)
+├── data/ # Dataset (e.g., train.csv)
 
-├── src/                # (Optional) Custom modules if added
+├── src/ # (Optional) Custom modules if added
 
-├── tests/              # (Optional) Unit tests
+├── tests/ # (Optional) Unit tests
 
-├── dashboard.py        # Main Streamlit app
+├── dashboard.py # Main Streamlit app
 
-├── requirements.txt    # Python dependencies
+├── requirements.txt # Python dependencies
 
-└── README.md           # Project overview and instructions
+└── README.md # Project overview and instructions
+
+---
 
 # ▶️ Run the App Locally
+
 **# Clone the repository**
 
 git clone https://github.com/tenglexin/data-science-dashboard.git
@@ -56,12 +73,19 @@ pip install -r requirements.txt
 
 streamlit run dashboard.py
 
+---
+
 # 🌐 Live Demo
-Click here to view the live app on Streamlit Cloud
-https://house-price-predictor-dashboard.streamlit.app/
+
+🌐 Live App: [Streamlit Cloud App](https://house-price-predictor-dashboard.streamlit.app/)  
+📂 GitHub Repo: [GitHub Repository](https://github.com/tenglexin/data-science-dashboard)
+
+---
 
 # 📈 Model Info
+
 The app uses a Linear Regression model trained on key features like:
+
 - Overall Quality
 - Living Area
 - Year Built
@@ -69,21 +93,30 @@ The app uses a Linear Regression model trained on key features like:
 - Garage Capacity
 
 Performance on test set:
+
 - R²: Measures how well the model fits the data
 - RMSE: Root Mean Squared Error shows prediction error
 
+---
+
 # 🛠️ Agile Development
+
 This app was developed using Agile principles:
+
 - MVD built first, then improved over iterations
 - Sprint log tracks user stories, backlog, and improvements
 - Frequent commits showing iterative development
 
+---
+
 # 🤝 Collaborators
+
 - tenglexin
 - leeseeping
 
+---
 
 # 📜 License
-This project is for educational use. Data provided by Kaggle.
-https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data?select=train.csv 
 
+This project is for educational use. Data provided by Kaggle.
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data?select=train.csv
